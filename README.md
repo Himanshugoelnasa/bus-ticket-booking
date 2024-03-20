@@ -11,7 +11,6 @@ Check the following demo project.
 
 Note: The url have SSL issue so kindly try to use Mozilla Firefox for now, other brwosers can have issue. This issue will be resolved soon.
 
-Register and login to take quizze
 
 # Installation
 
