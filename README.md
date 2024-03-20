@@ -1,8 +1,32 @@
-# React + Vite
+# React + vite Bus Ticket Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-   This is demo project for ticket booking
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Demo
+
+Check the following demo project. 
+
+**[View demo](http://laravel-quizze-2d95963d3b55.herokuapp.com)**
+
+Note: The url have SSL issue so kindly try to use Mozilla Firefox for now, other brwosers can have issue. This issue will be resolved soon.
+
+Register and login to take quizze
+
+# Installation
+
+1. **Clone or download this Repository.**
+2. **Run the command**
+
+    ```
+    npm install
+    ```
+
+3. **Run the command to compile the assets**
+    ```
+    npm run dev
+    ```
+
+# Contributing
+
+This project is open for contributions so Pull requests and Issues are welcome.
