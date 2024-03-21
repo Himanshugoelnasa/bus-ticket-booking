@@ -206,9 +206,9 @@ export default function BookTicket() {
               </div>
             </div>
 
-            <div className="w-full mx-auto my-auto flex max-w-2xl p-4 mt-5 ">
+            <div className="w-full mx-auto my-auto flex max-w-3xl p-4 mt-5 ">
               <p className="w-full mx-auto my-auto">
-                ({selected.length} Seats Selected)
+                ({tickets.length} / 40 Seats Booked)
               </p>
 
               <ModalPopup

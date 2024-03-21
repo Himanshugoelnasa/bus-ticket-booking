@@ -75,20 +75,39 @@ export default function ModalPopup({
 
   return (
     <>
-      <Button
-        className="w-full text-dark"
-        variant="primary"
-        disabled={(() => {
-          if (selected.length > 0) {
-            return false;
-          } else {
-            return true;
-          }
-        })()}
-        onClick={handleShow}
-      >
-        Continue To Booking
-      </Button>
+      {(() => {
+        if (selected.length > 0) {
+          return (
+            <>
+              <Button
+                className="w-full bg-green-500 hover:bg-green-700 active:bg-green-800 px-4 py-2 rounded-md text-white"
+                variant="secondary"
+              >
+                {(() => {
+                  if (selected.length > 0) {
+                    return <>({selected.length} Seats Selected)&nbsp;</>;
+                  } else {
+                    return <></>;
+                  }
+                })()}
+                <span>Continue To Booking</span>
+              </Button>
+            </>
+          );
+        } else {
+          return (
+            <>
+              <Button
+                className="w-full bg-gray rounded-md cursor-not-allowed opacity-50"
+                variant="secondary"
+                disabled
+              >
+                <span>Continue To Booking</span>
+              </Button>
+            </>
+          );
+        }
+      })()}
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

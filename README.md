@@ -7,7 +7,7 @@
 
 Check the following demo project. 
 
-**[View demo](http://laravel-quizze-2d95963d3b55.herokuapp.com)**
+**[View demo](https://main.dq6uhtfzm9o7s.amplifyapp.com/book-ticket)**
 
 Note: The url have SSL issue so kindly try to use Mozilla Firefox for now, other brwosers can have issue. This issue will be resolved soon.
 

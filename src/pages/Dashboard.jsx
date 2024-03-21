@@ -14,7 +14,7 @@ export default function Dashboard() {
       <div className="container">
         <div className="row">
           <div className="col-12 text-center text-4xl mb-5">
-            <h1>Booked Tickets</h1>
+            <h1>Dashboard</h1>
           </div>
         </div>
 
