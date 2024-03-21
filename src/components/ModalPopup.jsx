@@ -82,6 +82,7 @@ export default function ModalPopup({
               <Button
                 className="w-full bg-green-500 hover:bg-green-700 active:bg-green-800 px-4 py-2 rounded-md text-white"
                 variant="secondary"
+                onClick={() => handleShow()}
               >
                 {(() => {
                   if (selected.length > 0) {
